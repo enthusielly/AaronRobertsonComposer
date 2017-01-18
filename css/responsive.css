@@ -16,59 +16,12 @@ desktop?
 */
 
 @media (max-width: 800px){
-.mobile {
-    display: block;
-}
-
-.desktop {
-    display: none;
-}
-
-.mobile {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  div
-    display: none;
-  button 
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    border: 0;
-    text-indent: 200%;
-    overflow: hidden;
-    background: rgba(255,255,255,.8) url(http://i.imgur.com/vKRaKDX.png) center no-repeat;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    background-size: 80%;
-    width: 30px;
-    height: 30px;
-    outline: none;
-    transition: all 400ms ease;
-    &.expanded
-		transform: rotate(90deg);
-      background-color: transparent;
-      border: 0;
-  a
-    display: block;
-a
-  background: white;
-  text-align: center;
-  padding: 10px 0;
-  border-bottom: 1px solid #ddd;
-  text-decoration: none;
-  color: #222;
-  font-weight: bold;
-  &:hover, &:active, &:focus
-  background: darken(#eee, 3%);
-}
 
 #logo {
 	margin: 0px auto;
-	width: 80%;
+  max-width: 320px;
 	height: auto;
 	background: white;
-
 }
 
 a.logo {
@@ -78,15 +31,25 @@ a.logo {
 header {
 	padding: 0px;
 	background: white;
-
 }
 
 .navigation {
-	background: white;
-
+  display: flex;
+  flex-wrap: wrap;
+	background: none;
+  margin: center;
 }
 
+.desktop {
+  padding: 0px 0px 0px 20px;
+  background-color: none;
+}
 
+.main-nav {
+ background-color: none;
+ padding: 0px 5px;
+ justify-content: center;
+}
 
 p {
   font-size: 1em;
@@ -95,12 +58,14 @@ p {
   padding: 0px 5px ;
 }
 
+
 #biopic {
  margin: auto;
  max-width: 100%;
  margin-top: 0px;
  padding: 0px ;
 }
+
 
 #about {
 margin: auto;
@@ -113,13 +78,9 @@ margin: auto;
 
 
 .soundcloud {
-  display: flex;  
-  flex-direction: column;
   justify-content: center;
-  margin: 5px 20px;
-
+  margin: 0px 10px 10px 10px;
 }
-
 
 
 
@@ -173,14 +134,110 @@ margin: auto;
 
 @media screen and (max-width: 480px) {
 	#gallery {
+}
 
+/*
+.mobile {
+position: fixed;
+  width: 100%;
+  top: 0;
+div
+    display: none;
+   button 
+    position: absolute;
+    top: 0px;
+    right: 15px;
+   border: 0;
+   text-indent: 200%;
+    overflow: hidden;
+  border: 1px solid #ddd;
+    border-radius: 3px;
+    background-size: 80%;
+    width: 30px;
+    height: 30px;
+    outline: none;
+   transition: all 400ms ease;
+    &.expanded
+    transform: rotate(90deg);
+      background-color: transparent;
+      border: 0;
+ display: block;
+a
+  background: white;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  &:hover, &:active, &:focus
+  background: darken(#eee, 3%); 
+} 
+*/
+
+
+/* STUARTS STUFF 
+      
+        nav.mobile {
+            display: block;
+        }
+        
+        nav.desktop {
+            display: none;
+        }
+        
+        .menu-btn div {
+            position: absolute;
+            left: 100%;
+            top: 64%;
+            padding-right: 8px;
+            margin-top: -0.50em;
+            line-height: 1.2;
+            font-size: 18px;
+            font-weight: 200;
+            vertical-align: middle;
+            z-index: 99;
+            float: right;
+        }
+        
+        .menu-btn span {
+            display: block;
+            width: 19px;
+            height: 3px;
+            margin: 4px 0;
+            background: rgb(0, 0, 0);
+            z-index: 99;
+        }
+        
+        .responsive-menu {
+            display: none;
+            width: 100%;
+        }
+        
+        @media only screen and (min-width: 768px) {
+            nav.mobile {
+                display: none;
+            }
+            nav.desktop {
+                display: block
+            }
+        }
+*/
+/*------------------------------------*/
+
+
+
+#logo {
+  margin: 0px 20px ;
+  width: 90%;
+  height: auto;
+  background: white;
 }
 
 .album {
   width: 100%;
   height: auto;
 }
-
 
 .soundcloud {
  margin: 10px;
@@ -199,9 +256,13 @@ iframe {
 h2 {
   padding: 10px;
 }
+
+
+
+
 /*************************************
 
-THIS SECTION FOR TABLET
+THIS SECTION FOR TABLET Portrait
 
 *************************************/
 
@@ -214,7 +275,7 @@ THIS SECTION FOR TABLET
 
 /*************************************
 
-THIS SECTION FOR TABLET LANDSCAPE
+THIS SECTION FOR TABLET landscape
 
 *************************************/
 
@@ -232,8 +293,6 @@ THIS SECTION FOR TABLET LANDSCAPE
 nav {
 	font-size: 1.125em;
 }
-
-
 
 
 h1 { 

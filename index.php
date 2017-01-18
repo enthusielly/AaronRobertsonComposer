@@ -19,7 +19,11 @@
 <?php include("header.html");?>
 
 
-	
+<div class="wrapper">	
+
+
+
+
 
 	<!--   - - - - - - - - - -SOUNDCLOUD - - - - - - - - - -   -->
 	<section class="soundcloud">
@@ -97,6 +101,10 @@
 </section>
 
 
+
+
+
+</div>
 
 
 
