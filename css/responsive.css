@@ -1,0 +1,263 @@
+
+/*
+try these 
+@media only screen and (min-width: 320px) and (max-width: 479px){ ... } 
+smart phone
+
+@media only screen and (min-width: 480px) and (max-width: 767px){ ... } 
+could be a large phone or small tablet?
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ ... } 
+samsung galaxy tab likely 600? or 800.
+
+@media only screen and (min-width: 992px) and (max-width: 1999px){ ... } 
+desktop?
+
+*/
+
+@media (max-width: 800px){
+.mobile {
+    display: block;
+}
+
+.desktop {
+    display: none;
+}
+
+.mobile {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  div
+    display: none;
+  button 
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: 0;
+    text-indent: 200%;
+    overflow: hidden;
+    background: rgba(255,255,255,.8) url(http://i.imgur.com/vKRaKDX.png) center no-repeat;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-size: 80%;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    transition: all 400ms ease;
+    &.expanded
+		transform: rotate(90deg);
+      background-color: transparent;
+      border: 0;
+  a
+    display: block;
+a
+  background: white;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  &:hover, &:active, &:focus
+  background: darken(#eee, 3%);
+}
+
+#logo {
+	margin: 0px auto;
+	width: 80%;
+	height: auto;
+	background: white;
+
+}
+
+a.logo {
+	background: white;
+
+}
+header {
+	padding: 0px;
+	background: white;
+
+}
+
+.navigation {
+	background: white;
+
+}
+
+
+
+p {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  padding: 0px 5px ;
+}
+
+#biopic {
+ margin: auto;
+ max-width: 100%;
+ margin-top: 0px;
+ padding: 0px ;
+}
+
+#about {
+margin: auto;
+}
+
+
+#bio{
+  padding: 0px 10px ;
+}
+
+
+.soundcloud {
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px 20px;
+
+}
+
+
+
+
+.bandcamp {
+  margin: 20px 0px;
+  background-color: #f2f2f2;
+  flex-direction: column;
+  /*
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+*/
+
+
+} 
+
+
+ #gallery {
+
+ -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  margin: 10px 10%;
+  justify-content: space-around;
+  margin: 5%;
+ }
+
+
+.album {
+  max-width: 400px;
+  width: 40%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+/* SMARTPHONE 
+(min-width: 320px) and (max-width: 479px) */
+/* 480px is the breakpoint for smartphones in landscape mode */
+
+
+@media screen and (max-width: 480px) {
+	#gallery {
+
+}
+
+.album {
+  width: 100%;
+  height: auto;
+}
+
+
+.soundcloud {
+ margin: 10px;
+}
+
+iframe {
+  max-width: 100%;
+
+}
+
+#events {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  padding: 10px;
+}
+/*************************************
+
+THIS SECTION FOR TABLET
+
+*************************************/
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	
+
+
+
+/*************************************
+
+THIS SECTION FOR TABLET LANDSCAPE
+
+*************************************/
+
+
+@media screen and (max-width: 900px) {
+
+
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+
+nav {
+	font-size: 1.125em;
+}
+
+
+
+
+h1 { 
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 1.25em;
+	margin-bottom: 10%;
+}
+
+
+
+
+
+/*************************************
+
+THIS SECTION FOR DESKTOP
+
+/* 660px is the breakpoint for large tablets and normal sized desktops 
+*************************************/
+
+
+@media screen and (min-width: 900px){
+
+
+	
