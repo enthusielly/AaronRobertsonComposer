@@ -3,12 +3,14 @@
 <head>
 
 	<meta charset="uft-8">
-	<title>Aaron Robertson</title>
+	<title>Aaron Robertson, Songwriter & Composer</title>
 
 <link rel="stylesheet" href="css/normalize.css">
-<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Roboto:300,300i,400" rel="stylesheet">
+
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/responsive.css">
+
 
 </head>
 

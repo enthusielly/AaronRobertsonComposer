@@ -19,37 +19,47 @@ desktop?
 
 #logo {
 	margin: 0px auto;
-  max-width: 320px;
 	height: auto;
-	background: white;
 }
 
 a.logo {
-	background: white;
 
 }
+
+h4 {
+  font-size: 2em;
+  letter-spacing: 2px;
+  color: #718294;
+  padding: 0px;
+}
+
+#subhead {  
+  font-size: 1.25em;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  color: #718294;
+  font-weight: 300;
+}
+
+
 header {
 	padding: 0px;
-	background: white;
 }
 
 .navigation {
   display: flex;
   flex-wrap: wrap;
-	background: none;
   margin: center;
+  padding: 0 35px;
 }
 
-.desktop {
-  padding: 0px 0px 0px 20px;
-  background-color: none;
-}
 
 .main-nav {
  background-color: none;
- padding: 0px 5px;
+ padding: 0px 10px;
  justify-content: center;
 }
+
 
 p {
   font-size: 1em;
@@ -79,7 +89,7 @@ margin: auto;
 
 .soundcloud {
   justify-content: center;
-  margin: 0px 10px 10px 10px;
+  margin: 0px 0px 10px 0px;
 }
 
 
@@ -97,7 +107,6 @@ margin: auto;
   display: -webkit-box;
   display: flex;
 */
-
 
 } 
 
@@ -127,6 +136,9 @@ margin: auto;
 
 
 
+
+
+
 /* SMARTPHONE 
 (min-width: 320px) and (max-width: 479px) */
 /* 480px is the breakpoint for smartphones in landscape mode */
@@ -136,102 +148,10 @@ margin: auto;
 	#gallery {
 }
 
-/*
-.mobile {
-position: fixed;
-  width: 100%;
-  top: 0;
-div
-    display: none;
-   button 
-    position: absolute;
-    top: 0px;
-    right: 15px;
-   border: 0;
-   text-indent: 200%;
-    overflow: hidden;
-  border: 1px solid #ddd;
-    border-radius: 3px;
-    background-size: 80%;
-    width: 30px;
-    height: 30px;
-    outline: none;
-   transition: all 400ms ease;
-    &.expanded
-    transform: rotate(90deg);
-      background-color: transparent;
-      border: 0;
- display: block;
-a
-  background: white;
-  text-align: center;
-  padding: 10px 0;
-  border-bottom: 1px solid #ddd;
-  text-decoration: none;
-  color: #222;
-  font-weight: bold;
-  &:hover, &:active, &:focus
-  background: darken(#eee, 3%); 
-} 
-*/
-
-
-/* STUARTS STUFF 
-      
-        nav.mobile {
-            display: block;
-        }
-        
-        nav.desktop {
-            display: none;
-        }
-        
-        .menu-btn div {
-            position: absolute;
-            left: 100%;
-            top: 64%;
-            padding-right: 8px;
-            margin-top: -0.50em;
-            line-height: 1.2;
-            font-size: 18px;
-            font-weight: 200;
-            vertical-align: middle;
-            z-index: 99;
-            float: right;
-        }
-        
-        .menu-btn span {
-            display: block;
-            width: 19px;
-            height: 3px;
-            margin: 4px 0;
-            background: rgb(0, 0, 0);
-            z-index: 99;
-        }
-        
-        .responsive-menu {
-            display: none;
-            width: 100%;
-        }
-        
-        @media only screen and (min-width: 768px) {
-            nav.mobile {
-                display: none;
-            }
-            nav.desktop {
-                display: block
-            }
-        }
-*/
-/*------------------------------------*/
-
-
 
 #logo {
-  margin: 0px 20px ;
-  width: 90%;
-  height: auto;
-  background: white;
+  padding: 0;
+
 }
 
 .album {
@@ -258,6 +178,49 @@ h2 {
 }
 
 
+#subhead {  
+  margin: auto;  
+  font-size: 1em;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  color: #718294;
+  font-weight: 300;
+  padding: 0px 0 10px 0 ;
+}
+
+.main-nav {
+ padding: 0 10px;
+ justify-content: center;
+font-size: .825em;
+
+}
+
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items:baseline;
+  margin: auto;
+  padding: 0 10px;
+}
+
+
+nav ul {
+  margin: auto;  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* page links */
+
+
+
+
+
+
 
 
 /*************************************
@@ -270,8 +233,26 @@ THIS SECTION FOR TABLET Portrait
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 	
+#subhead {  
+  margin: auto;  
+  font-size: 1.5em;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  color: #718294;
+  font-weight: 300;
+}
+
+.main-nav {
+ padding: 10px;
+ justify-content: center;
+font-size: .825em;
+}
 
 
+nav ul {
+  margin: auto; 
+  padding-top: 10px; 
+}
 
 /*************************************
 
@@ -303,6 +284,23 @@ h2 {
 	font-size: 1.25em;
 	margin-bottom: 10%;
 }
+
+.navigation {
+  display: flex;
+  padding: 0 0 0 35px;
+}
+
+
+main-nav {
+ justify-content: center;
+}
+
+
+
+
+
+
+
 
 
 

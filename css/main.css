@@ -1,7 +1,12 @@
 /*************************************
 COLOURS
-yellow: E2C077
-red: #BC1B21
+
+
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+
 *************************************/
 
 
@@ -10,17 +15,26 @@ HEADER
 *************************************/
 
 header {
-	padding: 20px 50px;
+	padding: 10px 0%;
 }
 
+
+
+
+/* 
+
+
+FOR AN IMAGE LOGO:;
 #logo {
 	display: flex;
 	height: 60px;
+	max-width: 520px;
 }
 
 
 
-/* sticky header 
+
+sticky header 
     position:fixed;
     z-index: 100;
 ------------------*/
@@ -31,45 +45,34 @@ NAVIGATION
 
 .navigation {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items:baseline;
-}
-
-.mobile {
-	display: none;
+	padding: 0 0 0 35px;
 }
 
 
 nav ul {
 	display: flex;
-	justify-content: space-around;
 }
 
-#logo {
-max-width: 520px;
+ul {
+	list-style: none;
+	padding: 0;
 }
-
-
-#navlinks {
-
-}
-
 
 /* page links */
 .main-nav {
-	padding: 0px 0px 0px 20px;
+	padding: 0px 20px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-size: 1em;
-	position: fixed, 
-	top:0; 
-	width:100%;
+	font-size: .825em;
 }
+
 
 a {
 	text-decoration: none;
-	color: black;
+	color: #3B687F;
+	font-weight: 400;
 }
 
 
@@ -79,66 +82,8 @@ a a:focus {
 
 
 a:hover {
-	color: #BC1B21;
+	color: #CB6E56;
 }
-
-
-
-
-
-
-
-
-
-#top {
-	margin: 0px auto;	
-    list-style: none;
-	font-size: .75em;
-}
-
-
-
-
-
-/*************************************
-FOOTER
-*************************************/
-
-footer {
-	font-size: 0.75em;
-	text-align: center;
-	padding-top: 25px;
-	color: #aaa;
-}
-
-.social-icon {
-	height: 25px;
-	margin: 5px;
-	}
-
-ul{
-list-style: none;
-}
-
-.social-icon:hover {
-	background-color: #E2C077;
-	border-radius: 100%;
-	width: 25px;
-}
-
-
-#social {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-top: 50px;
-}
-
-
-.copyright {
-	text-align: center;
-}
-
 
 
 
@@ -164,9 +109,9 @@ img {
 
 /* album title */
 p.title {
-	font-family:'Lato', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	font-family:'Roboto', sans-serif;
+	padding-bottom: 20px;
+	margin-top: 0px;
 }
 
 
@@ -174,31 +119,77 @@ p.title {
 
 /* site body */
 
+
+body{
+ 	font-family: 'Roboto', sans-serif;
+ 	background-color: #EEEAE0;
+ 	font-weight: 300;
+ 	line-height: 1.5;
+	padding: 0 10%;
+}
+
+
+
 p {
-	line-height: 1.25em
 	font-weight: 300;
 	font-size: 1em;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: left;
 }
+
 
 
 h1 {
-	font-size: 1.5em;
-	font-weight: 300;
-	font-family: 'Lato', sans-serif;
+	font-size: 1.75em;
+	font-family: 'Oswald', sans-serif;
 	padding: 20px 0 0 0;
 	text-align: left;
+	letter-spacing: 2px;
+	color: #718294;
+	font-weight: 300;
+	text-transform: uppercase;
 }
+
+
+
+#subhead {	
+	font-size: 1.5em;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+	color: #718294;
+	font-weight: 300;
+}
+
 
 
 h2 {
-	font-size: 1.25em;
+	font-size: 1.55em;
+	font-family: 'Oswald', sans-serif;
+	text-align: left;
+	letter-spacing: 1px;
+	color: #718294;
 	font-weight: 300;
-	font-family: 'Lato', sans-serif;
 }
 
 
+
+h4 {
+	font-size: 2.5em;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #718294;
+	padding: 0px 10px;
+}
+
+
+#artist, #client{
+	font-size: .75em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 0px;
+}
 
 
 
@@ -208,7 +199,8 @@ SOUNDCLOUD
 
 .soundcloud {
 	justify-content: center;
-	margin: 0px 20% 10px;
+	margin: 0px 0px 10px 0px;
+	max-width: 900px;
 }
 
 
@@ -221,23 +213,26 @@ BANDCAMP
 	text-align: center;
 }
 
-.title {
+.title, {
 	text-align: left;
 }
 
+
+
+
 .bandcamp {
-	background-color: #f2f2f2;
 	display: flex;
 	flex-direction: column;
-	margin: 30px 20% 10px;
+	margin: 30px 5% 10px;
 }	
 
  #gallery {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	margin: 5%;
+	margin: 30px 0px 20px 0px;
  }
+
 
 .album {
 	width: 27%;
@@ -251,13 +246,44 @@ BANDCAMP
 VIDEO & EVENTS
 *************************************/
 
+
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	margin: 30px 5% 10px;
+}	
+
 #videos, #events  {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 30px 0px 0px 0px;
+ }
+
+
+.media {
+	padding: 0;
+	min-width: 580px;
+	min-height: 310px;
+}
+
+.facebook {
+}
+
+/** #videos, #events  {
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
 	margin: 0 20px;
 	text-align: auto;
-}
+}**/
+
+
+
+
+
+
 
 
 
@@ -277,10 +303,50 @@ text-align: center;
 max-width: 720px;
 }
 
+
 #biopic {
  max-width: 720px;
  height: auto;
  padding: 20px 0 0 0;
+}
+
+
+
+/*************************************
+FOOTER
+*************************************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 25px;
+	color: #23374C;
+}
+
+.social-icon {
+	height: 25px;
+	margin: 5px;
+	}
+
+
+
+.social-icon:hover {
+	background-color: #CB6E56;
+	border-radius: 100%;
+	width: 25px;
+}
+
+
+#social {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+
+.copyright {
+	text-align: center;
 }
 
 

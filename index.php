@@ -3,10 +3,11 @@
 <head>
 
 	<meta charset="uft-8">
-	<title>Aaron Robertson</title>
+	<title>Aaron Robertson, Songwriter & Composer</title>
 
 <link rel="stylesheet" href="css/normalize.css">
-<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Roboto:300,300i,400" rel="stylesheet">
+
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/responsive.css">
 
@@ -54,7 +55,8 @@
 
 					<a href="http://tapeeagles.bandcamp.com/album/tape-eagles" target="_blank"  class="album">
 					<img src="images/TapeEagles_Darker.jpg" alt="Tape Eagles Album Art">
-					<p class="title">Tape Eagles</p>
+					<p class="title">Tape Eagles, self-titled album<br>
+					<class id="artist">Tape Eagles</p>
 					</a>
 					<!-- <p class="overlay-text">Debut album of rocking tunes.</p> -->
 
@@ -62,7 +64,8 @@
 
 					<a href="http://aaronrobertson.bandcamp.com/album/phantom-p-i-mission-apparition-ost" target="_blank" class="album">
 					<img src="images/Phantom.jpg" alt="Phantom P.I. Mission Apparition Album Art">
-						<p class="title">Phantom PI:<br>Mission Apparition</p>
+						<p class="title">Phantom PI: Mission Apparition, Original Soundtrack <br>
+					<class id="artist"> Aaron Robertson</p>
 					</a>
 					<!--<	<p class="italic">Original music composed and created for Phantom P.I. Mission Apparition, an IOS game by Rocket 5 Studios.</p>-->
 
@@ -70,7 +73,8 @@
 
 					<a href="http://victors.bandcamp.com/album/seasides" target="_blank" class="album">
 					<img src="images/Seasides.jpg" alt="Victor Scott's Seasides Album Art">
-						<p class="title">Seasides (Bonus Tracks)<br>Victor Scott</p>
+						<p class="title">Seasides (Bonus Tracks)<br>
+						<class id="artist"> Victor Scott</p>
 					</a>
 					<!--	<p class="italic">Original music.</p>  -->
 
@@ -78,7 +82,8 @@
 
 					<a href="http://victors.bandcamp.com/album/good-times" target="_blank" class="album">
 					<img src="images/GoodTimes.jpg" alt="Victor Scott's Good Times Album Art">
-						<p class="title">Good Times <br>Victor Scott</p>
+						<p class="title">Good Times <br>
+						<class id="artist"> Victor Scott</p>
 					</a>
 					<!--	<p class="italic">Original music.</p>  -->
 
@@ -86,7 +91,8 @@
 
 					<a href="http://victors.bandcamp.com/album/b-sides" target="_blank" class="album">
 					<img src="images/B_Sides.jpg" alt="Victor Scott's Happy Days B-Sides Album Art">
-						<p class="title">B-Sides (Bonus Tracks)<br> Victor Scott</p>
+						<p class="title">B-Sides (Bonus Tracks)<br>
+						<class id="artist"> Victor Scott</p>
 					</a>
 					<!--	<p class="italic">Original music.</p>  -->
 
@@ -94,7 +100,7 @@
 
 					<a href="http://victors.bandcamp.com/album/happy-days-2" target="_blank" class="album">
 					<img src="images/HappyDays.jpg" alt="Victor Scott's Happy Days Album Art" >
-						<p class="title">Happy Days<br> Victor Scott</p>
+						<p class="title">Happy Days<br><class id="artist"> Victor Scott</p>
 					</a>
 					<!--	<p class="italic">Original music.</p>  -->
 		</div>
